@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "188856621639",
+    "project_id": "huffazai",
+    "firebase_url": "https://huffazai-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "storage_bucket": "huffazai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188856621639:android:2921cfa3c63300904e2f62",
+        "android_client_info": {
+          "package_name": "com.huffazai.huffazai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsB5st74U8xu0XOX1-v2IBiW8zDE0qxMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

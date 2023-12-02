@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!--Toolbar theme-->
+    <style name="CustomToolbarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!--Menu Item Theme-->
+    <style name="CustomPopupStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/white</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+    </style>
+
+    <!--Input Theme-->
+    <style name="CustomInputStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorStandardBlack</item>
+        <item name="android:theme">@color/colorDarkBlue</item>
+    </style>
+
+</resources>

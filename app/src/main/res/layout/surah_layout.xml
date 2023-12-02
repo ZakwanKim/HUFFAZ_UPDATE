@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="16dp"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@drawable/ic_bg_row"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/surah_number"
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/english_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Al-Faatiha"
+                android:textColor="@color/colorStandardBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/total_aya"
+                android:text="7 aya"
+                android:textColor="@color/colorStandardBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/arabic_name"
+            android:textSize="20sp"
+            android:text="Al-Faatiha"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

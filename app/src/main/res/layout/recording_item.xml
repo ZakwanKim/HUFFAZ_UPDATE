@@ -1,0 +1,23 @@
+<!-- recording_item.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_play"
+        android:contentDescription="Play"
+        android:layout_alignParentStart="true" /> <!-- Align the play button to the start (left) -->
+
+    <TextView
+        android:id="@+id/recordingNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recording Name"
+        android:layout_toEndOf="@id/play_button"
+        android:layout_marginStart="16dp" /> <!-- Place the recording name to the right of the play button with some margin -->
+
+</RelativeLayout>

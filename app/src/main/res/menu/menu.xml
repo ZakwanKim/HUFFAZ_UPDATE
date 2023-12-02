@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_setting"
+        android:title="@string/settings_name"
+        app:showAsAction= "never">
+    </item>
+
+    <item
+    android:id="@+id/DetectedVerse"
+    android:title="Correct Recitation History"
+    app:showAsAction= "never">
+    </item>
+
+    <item
+        android:id="@+id/NotDetectedVerse"
+        android:title="Wrong Recitation History"
+        app:showAsAction="never">
+    </item>
+</menu>
