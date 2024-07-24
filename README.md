@@ -1,4 +1,4 @@
-HUFFAZ
+
 Introducing our cutting-edge HUFFAZ, Android Quran Application with Voice Recognition AI. HUFFAZ is a revolutionary way to engage with the Holy Quran. This app seamlessly integrates Google's advanced voice recognition technology to provide an immersive and hands-free experience for users, making the exploration of the Quran more accessible and interactive than ever before.
 
 Key Features:
